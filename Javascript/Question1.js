@@ -17,5 +17,6 @@ function reverseInteger(integer) {
 
 //Test the fuction
 console.log("The reverse is:",reverseInteger(-123))
-console.log("The reverse of",integer,"is:",reverseInteger(4076))
+console.log("The reverse is:",reverseInteger(4076))
+console.log("The reverse is:",reverseInteger(40))
 
