@@ -1,4 +1,5 @@
 function mostFrequentCharacter(string) {
+    
     // Object to store the frequency of each character
     const charFrequency = {};
 
@@ -28,5 +29,5 @@ function mostFrequentCharacter(string) {
 }
 
 // Input from user
-string=prompt("Enter your string:\n")
-ocnsole.log("The frequent charatcer in the string is:",mostFrequentCharacter(string));
+let string = "hello my friend"
+console.log("The frequent character in:",string,"is:",mostFrequentCharacter(string));

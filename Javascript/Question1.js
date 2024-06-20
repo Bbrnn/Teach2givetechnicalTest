@@ -16,7 +16,12 @@ function reverseInteger(integer) {
 }
 
 //Test the fuction
-console.log("The reverse is:",reverseInteger(-123))
-console.log("The reverse is:",reverseInteger(4076))
-console.log("The reverse is:",reverseInteger(40))
+let integer = -123
+console.log("The reverse of",integer," is:",reverseInteger(integer))
+
+integer = 4076
+console.log("The reverse OF",integer,"is",reverseInteger(integer))
+
+integer = 40
+console.log("The reverse:",integer,"is",reverseInteger(integer))
 

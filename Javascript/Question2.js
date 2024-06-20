@@ -18,7 +18,7 @@ function main() {
 	//initialize the number
 	let num = 10;
 
-	let factorial=factorialNumber(num);
+	let factorial = factorialNumber(num);
 
 	console.log("Factorial of",num,"is",factorial);
 }
